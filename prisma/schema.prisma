@@ -8,7 +8,6 @@ model Prediction {
   originDate DateTime
   targetDate DateTime
   body       String
-  key        String
   uuid       String   @unique
 }
 
@@ -17,6 +16,6 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
