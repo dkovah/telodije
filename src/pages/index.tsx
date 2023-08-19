@@ -1,7 +1,5 @@
+import PredictionPage from "./prediction/[id]";
+
 export default function Home() {
-  return (
-    <>
-      <p>Hola mundo</p>
-    </>
-  );
+  return <PredictionPage id="start" />;
 }

@@ -1,0 +1,19 @@
+:root {
+  background-color: antiquewhite;
+}
+
+.card {
+  background-color: rgb(255, 249, 244);
+  width: 700px;
+  height: 500px;
+}
+
+.card-div {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  position: absolute;
+  top: calc(50% - 270px);
+  left: calc(50% - 350px);
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+}
